@@ -1,0 +1,38 @@
+* {
+    margin: 0 auto;
+}
+
+.homepage {
+    width: 1366px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.content {
+    width: 1140px;
+    height: 750px;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+
+.header {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.logo{
+    margin: 0;
+    display: block;
+    width: 46.58px;
+    height: 48px;
+}
+.adress{
+    margin: 0;
+    display: block;
+    width: 32.46px;
+    height: 46px;
+}
