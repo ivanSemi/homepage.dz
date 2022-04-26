@@ -199,10 +199,13 @@
 }
 
 .purpose__img {
-    width         : 171.94px;
-    height        : 120.72px;
-    padding-top   : 43.9px;
-    padding-bottom: 41px;
+    display: flex;
+    justify-content: center;
+    padding-top   : 34.8px;
+    padding-bottom: 52px;
+}
+.purpose__img>img{
+    padding-right: 55px;
 }
 
 .purpose__h4-main>h4 {
