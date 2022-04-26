@@ -257,5 +257,11 @@
 }
 
 .purpose__lnk:hover:after{
-    
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("/img/ic_arrow_forward_24px_hov.svg") 0 0 no-repeat;
+    position: absolute;
+    left: 36%;
+    bottom: 1%;
 }
