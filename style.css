@@ -32,12 +32,13 @@
     display        : block;
     text-decoration: none;
     margin         : 0;
-    background: url("/img/logo.svg") 0 0 no-repeat;
+    background: url("/img/logo.svg") 0px -2px no-repeat;
     width : 46.58px;
     height: 48px;
 }
 .header__logo-lnk:hover {
-    background: url("/img/logo_hov.svg") 0 0 no-repeat;
+    background: url("/img/logo_hov.svg") 0px -2px no-repeat;
+    /* background-position: 0px -2px; */
     cursor    : pointer;
 }
 
@@ -45,12 +46,12 @@
     display        : block;
     text-decoration: none;
     margin         : 0;
-    background: url("/img/address-book-solid 1.svg") 0 0 no-repeat;
+    background: url("/img/address-book-solid 1.svg") 0px 3px no-repeat;
     width : 34px;
     height: 46px;
 }
 .header__adress-ico-lnk:hover{
-    background: url("/img/address_hov.svg") 0 0 no-repeat;
+    background: url("/img/address_hov.svg") 0px 3px no-repeat;
     cursor    : pointer;
 }
 
