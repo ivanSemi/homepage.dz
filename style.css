@@ -47,16 +47,17 @@
 
 .header__logo:hover {
     box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
-    cursor          : pointer;
+    cursor    : pointer;
 }
 
 .header__adress-ico {
     width : 32.46px;
     height: 46px;
 }
-.header__adress-ico:hover{
+
+.header__adress-ico:hover {
     box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
-    cursor          : pointer;
+    cursor    : pointer;
 }
 
 .hero {
@@ -111,11 +112,11 @@
     text-align    : center;
     letter-spacing: 0.04em;
     color         : #FFFFFF;
-    user-select: none;
+    user-select   : none;
 }
 
 .group__button-name:hover {
-    cursor: pointer;
+    cursor    : pointer;
     box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
 }
 
@@ -134,18 +135,18 @@
 .help__h3 {
     display        : flex;
     justify-content: center;
-    padding-bottom: 64px;
+    padding-bottom : 64px;
 }
 
 .h3__main {
     font-family: 'Roboto';
-    font-style: normal;
+    font-style : normal;
     font-weight: 300;
-    font-size: 36px;
+    font-size  : 36px;
     line-height: 46px;
     /* or 128% */
 
-    text-align: center;
+    text-align    : center;
     letter-spacing: 0.05em;
 
     color: #000000;
@@ -154,115 +155,120 @@
 .help__purpose {
     display        : flex;
     justify-content: space-between;
-    padding-bottom: 63px;
+    padding-bottom : 63px;
 }
 
 .purpose {
-    width : 359px;
-    height: 480px;
-    background: #FFFFFF;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    width        : 359px;
+    height       : 480px;
+    background   : #FFFFFF;
+    box-shadow   : 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
-    
+
 }
-.purpose__box{
-    padding: 0 32px;
+
+.purpose__box {
+    padding : 0 32px;
     position: relative;
 }
 
 .help__footer {
     height: 42px;
 }
+
 .help__footer-main {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 42px;
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 300;
+    font-size     : 36px;
+    line-height   : 42px;
     /* identical to box height, or 128% */
-    text-align: center;
+    text-align    : center;
     letter-spacing: 0.05em;
-    color: #000000;
+    color         : #000000;
     padding-bottom: 32px;
 }
 
 .help__footer-text {
     font-family: 'Roboto';
-    font-style: normal;
+    font-style : normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size  : 16px;
     line-height: 26px;
     /* or 162% */
 
-    text-align: center;
+    text-align    : center;
     letter-spacing: 0.05em;
-
-    color: #222222;
+    padding-bottom: 64px;
+    color         : #222222;
 }
 
-.purpose__img{
-    width: 171.94px;
-    height: 120.72px;
-    padding-top: 43.9px;
+.purpose__img {
+    width         : 171.94px;
+    height        : 120.72px;
+    padding-top   : 43.9px;
     padding-bottom: 41px;
 }
 
 .purpose__h4-main>h4 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 20px;
+    line-height   : 30px;
     /* or 150% */
     letter-spacing: 0.05em;
     /* Blue_01 */
-    color: #1F3F68;
+    color         : #1F3F68;
     padding-bottom: 14px;
-    
+
 }
+
 .purpose__p {
     padding-bottom: 19.8px;
 }
-.purpose__p>p{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+
+.purpose__p>p {
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 16px;
+    line-height   : 26px;
     /* or 162% */
     letter-spacing: 0.05em;
-    color: #1F3F68;
-    opacity: 0.6;
+    color         : #1F3F68;
+    opacity       : 0.6;
 }
 
-.purpose__lnk{
+.purpose__lnk {
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
+    font-family    : 'Roboto';
+    font-style     : normal;
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 30px;
     /* or 214% */
-    letter-spacing: 0.05em;
-    color: #5A98D0;
+    letter-spacing : 0.05em;
+    color          : #5A98D0;
 }
-.purpose__lnk::after{
-    content: "";
-    width: 24px;
-    height: 24px;
+
+.purpose__lnk::after {
+    content   : "";
+    width     : 24px;
+    height    : 24px;
     background: url("/img/ic_arrow_forward_24px.svg") 0 0 no-repeat;
-    position: absolute;
-    left: 36%;
-    bottom: 1%;
+    position  : absolute;
+    left      : 36%;
+    bottom    : 1%;
 
 }
 
-.purpose__lnk:hover:after{
-    content: "";
-    width: 24px;
-    height: 24px;
+.purpose__lnk:hover:after {
+    content   : "";
+    width     : 24px;
+    height    : 24px;
     background: url("/img/ic_arrow_forward_24px_hov.svg") 0 0 no-repeat;
-    position: absolute;
-    left: 36%;
-    bottom: 1%;
+    position  : absolute;
+    left      : 36%;
+    bottom    : 1%;
 }
