@@ -24,38 +24,38 @@
     box-sizing: border-box;
 }
 
-.logo{
-    margin: 0;
+.header__logo-lnk{
     display: block;
+    text-decoration: none;
+}
+.header__adress-ico-lnk{
+    display: block;
+    text-decoration: none;
+}
+
+.header__logo{
+    margin: 0;
     width: 46.58px;
     height: 48px;
 }
-.logo:hover {
+.header__logo:hover {
     background-image: url(/img/logo_hov.svg);
     cursor: pointer;
 }
 
-.adress{
+.header__adress-ico{
     margin: 0;
-    display: block;
     width: 32.46px;
     height: 46px;
 }
 
-.group {
-
-}
 
 .group__h1{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
-    line-height: 74px;
-    /* or 116% */
     letter-spacing: 0.04em;
-    /* Blue_01 */
-    
     color: #1F3F68;
 }
 
@@ -64,10 +64,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-    letter-spacing: 0.05em;
-    /* Blue_01 */
     color: #1F3F68;
     opacity: 0.6;
 }
