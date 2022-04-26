@@ -46,13 +46,17 @@
 }
 
 .header__logo:hover {
-    background-image: url(/img/logo_hov.svg);
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
     cursor          : pointer;
 }
 
 .header__adress-ico {
     width : 32.46px;
     height: 46px;
+}
+.header__adress-ico:hover{
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    cursor          : pointer;
 }
 
 .hero {
@@ -109,6 +113,11 @@
     color         : #FFFFFF;
 }
 
+.group__button-name:hover {
+    cursor: pointer;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+}
+
 .illustration {
     width              : 648.69px;
     height             : 549.04px;
@@ -153,6 +162,11 @@
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
+    
+}
+.purpose__box{
+    padding: 0 32px;
+    position: relative;
 }
 
 .help__footer {
@@ -188,7 +202,10 @@
 .purpose__img{
     width: 171.94px;
     height: 120.72px;
+    padding-top: 43.9px;
+    padding-bottom: 41px;
 }
+
 .purpose__h4-main>h4 {
     font-family: 'Roboto';
     font-style: normal;
@@ -196,12 +213,14 @@
     font-size: 20px;
     line-height: 30px;
     /* or 150% */
-
     letter-spacing: 0.05em;
-
     /* Blue_01 */
-
     color: #1F3F68;
+    padding-bottom: 14px;
+    
+}
+.purpose__p {
+    padding-bottom: 19.8px;
 }
 .purpose__p>p{
     font-family: 'Roboto';
@@ -223,10 +242,20 @@
     font-size: 14px;
     line-height: 30px;
     /* or 214% */
-
     letter-spacing: 0.05em;
-
-    /* blue_04 */
-
     color: #5A98D0;
+}
+.purpose__lnk::after{
+    content: "";
+    width: 24px;
+    height: 24px;
+    background: url("/img/ic_arrow_forward_24px.svg") 0 0 no-repeat;
+    position: absolute;
+    left: 36%;
+    bottom: 1%;
+
+}
+
+.purpose__lnk:hover:after{
+    
 }
