@@ -13,8 +13,8 @@
     margin    : 0 auto;
     width     : 1140px;
     height    : 750px;
-    border    : 1px solid black;
-    box-sizing: border-box;
+    /* border    : 1px solid black;
+    box-sizing: border-box; */
 
 }
 
@@ -24,8 +24,8 @@
     display        : flex;
     justify-content: space-between;
     height         : 48px;
-    border         : 1px solid black;
-    box-sizing     : border-box;
+    /* border         : 1px solid black;
+    box-sizing     : border-box; */
 }
 
 .header__logo-lnk {
