@@ -5,14 +5,16 @@
 
 .homepage {
     margin    : 0 auto;
-    width     : 1366px;
+    max-width     : 1366px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    margin-bottom: 150px;
 }
 
+/* вместо .container как в дз сказано, у меня создан класс .content*/
 .content {
     margin    : 0 auto;
-    width     : 1140px;
-    height    : 750px;
+    max-width     : 1140px;
+
     /* border    : 1px solid black;
     box-sizing: border-box; */
 
@@ -72,6 +74,7 @@
     letter-spacing: 0.06em;
     color         : #1F3F68;
     padding-bottom: 31px;
+    width: 510px;
 }
 
 .group__p {
