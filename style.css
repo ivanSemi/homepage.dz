@@ -4,17 +4,17 @@
 }
 
 .homepage {
-    margin    : 0 auto;
-    max-width     : 1366px;
-    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    margin             : 0 auto;
+    max-width          : 1366px;
+    background         : linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     background-position: 1366px 768px;
-    margin-bottom: 150px;
+    margin-bottom      : 112px;
 }
 
 /* вместо .container как в дз сказано, у меня создан класс .content*/
 .content {
-    margin    : 0 auto;
-    max-width     : 1140px;
+    margin   : 0 auto;
+    max-width: 1140px;
 
     /* border    : 1px solid black;
     box-sizing: border-box; */
@@ -22,38 +22,40 @@
 }
 
 .header {
-    margin-top     : 16px;
-    margin-bottom  : 105px;
-    display        : flex;
-    justify-content: space-between;
-    height         : 48px;
+    margin-top        : 16px;
+    margin-bottom     : 105px;
+    display           : flex;
+    justify-content   : space-between;
+    height            : 48px;
     /* border         : 1px solid black;
-    box-sizing     : border-box; */
+    box-sizing        : border-box; */
 }
 
 .header__logo-lnk {
     display        : block;
     text-decoration: none;
     margin         : 0;
-    background: url("/img/logo.svg") 0px -2px no-repeat;
-    width : 46.58px;
-    height: 48px;
+    background     : url("/img/logo.svg") 0px -2px no-repeat;
+    width          : 46.58px;
+    height         : 48px;
 }
+
 .header__logo-lnk:hover {
-    background: url("/img/logo_hov.svg") 0px -2px no-repeat;
+    background            : url("/img/logo_hov.svg") 0px -2px no-repeat;
     /* background-position: 0px -2px; */
-    cursor    : pointer;
+    cursor                : pointer;
 }
 
 .header__adress-ico-lnk {
     display        : block;
     text-decoration: none;
     margin         : 0;
-    background: url("/img/address-book-solid 1.svg") 0px 3px no-repeat;
-    width : 34px;
-    height: 46px;
+    background     : url("/img/address-book-solid 1.svg") 0px 3px no-repeat;
+    width          : 34px;
+    height         : 46px;
 }
-.header__adress-ico-lnk:hover{
+
+.header__adress-ico-lnk:hover {
     background: url("/img/address_hov.svg") 0px 3px no-repeat;
     cursor    : pointer;
 }
@@ -75,7 +77,7 @@
     letter-spacing: 0.06em;
     color         : #1F3F68;
     padding-bottom: 31px;
-    width: 510px;
+    width         : 510px;
 }
 
 .group__p {
@@ -172,7 +174,8 @@
 }
 
 .help__footer {
-    height: 42px;
+    height       : 42px;
+    margin-bottom: 148px;
 }
 
 .help__footer-main {
@@ -189,26 +192,25 @@
 }
 
 .help__footer-text {
-    font-family: 'Roboto';
-    font-style : normal;
-    font-weight: 400;
-    font-size  : 16px;
-    line-height: 26px;
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 16px;
+    line-height   : 26px;
     /* or 162% */
-
     text-align    : center;
     letter-spacing: 0.05em;
-    padding-bottom: 64px;
     color         : #222222;
 }
 
 .purpose__img {
-    display: flex;
+    display        : flex;
     justify-content: center;
-    padding-top   : 34.8px;
-    padding-bottom: 52px;
+    padding-top    : 34.8px;
+    padding-bottom : 52px;
 }
-.purpose__img>img{
+
+.purpose__img>img {
     padding-right: 15px;
 }
 
@@ -273,4 +275,91 @@
     position  : absolute;
     left      : 36%;
     bottom    : 1%;
+}
+
+.smart {
+    height       : 480px;
+    background   : url(/img/alberto-castillo-q-mx4mSkK9zeo-unsplash.png) no-repeat;
+    margin-bottom: 32px;
+    border-radius: 10px;
+}
+
+.smart_home {
+    height    : 480px;
+    background: url(/img/smart.svg) no-repeat;
+}
+
+.smart_home_p {
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 32px;
+    line-height   : 46px;
+    /* or 144% */
+    text-align    : right;
+    letter-spacing: 0.05em;
+    color         : #FFFFFF;
+    padding       : 64px 64px 0 0;
+}
+
+.app {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.back_spark {
+    width           : 554px;
+    height          : 417px;
+    background-image: url(/img/Dribble\ iphonex\ mockup.png);
+    border-radius   : 10px;
+}
+
+.sparklite {
+
+    height       : 417px;
+    background   : linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+}
+
+.sparklite_p {
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 28px;
+    line-height   : 46px;
+    letter-spacing: 0.05em;
+    color         : #FFFFFF;
+    padding       : 32px 0 0 32px;
+
+}
+
+.back_car {
+    width           : 554px;
+    height          : 417px;
+    background-image: url(/img/upload.png);
+    border-radius   : 10px;
+}
+
+.car {
+
+    height       : 417px;
+    background   : linear-gradient(306.48deg, rgba(66, 165, 245, 0.4) 0%, rgba(21, 101, 192, 0.6) 97.81%);
+    border-radius: 10px;
+}
+
+.car_p {
+    font-family   : 'Roboto';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 28px;
+    line-height   : 46px;
+    letter-spacing: 0.05em;
+    color         : #FFFFFF;
+    padding       : 32px 0 0 32px;
+}
+
+.footer {
+    margin    : 0 auto;
+    width     : 1366px;
+    background: #316099;
 }
