@@ -7,6 +7,7 @@
     margin    : 0 auto;
     max-width     : 1366px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background-position: 1366px 768px;
     margin-bottom: 150px;
 }
 
