@@ -377,8 +377,18 @@
 }
 
 .intersted_right {
-    width : 494.77px;
-    height: 204px;
+    width          : 494.77px;
+    height         : 204px;
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+.intersted__button {
+    background   : #5A98D0;
+    border-radius: 0px;
+    width        : 237px;
+    height       : 56px;
 }
 
 .intersted_left_h3 {
