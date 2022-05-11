@@ -18,49 +18,10 @@ body,
     margin-bottom      : 112px;
 }
 
-.contactpage {
-    margin-bottom: 48px;
-    &__baner {
-        width     : 100%;
-        background: no-repeat center/100% url(../img/header_baner_contact.svg);
-        height    : 250px;
-    }
-    &__box {
-        text-align: center;
-        padding-top: 51px;
-        &-heding {
-            font-family   : 'Roboto';
-            font-style    : normal;
-            font-weight   : 500;
-            font-size     : 44px;
-            line-height   : 74px;
-            text-align    : center;
-            letter-spacing: 0.04em;
-            color         : #FFFFFF;
-            padding-bottom: 16px;
-        }
-        &-text {
-            font-family: 'Roboto';
-            font-style : normal;
-            font-weight: 400;
-            font-size  : 20px;
-            line-height: 30px;
-            text-align    : center;
-            letter-spacing: 0.04em;
-            color: rgba(255, 255, 255, 0.6);
-            padding: 0 142px;
-        }
-    }
-}
-
 /* вместо .container как в дз сказано, у меня создан класс .content*/
 .content {
     margin   : 0 auto;
     max-width: 1140px;
-
-    /* border    : 1px solid black;
-    box-sizing: border-box; */
-
 }
 
 .header {
@@ -100,6 +61,43 @@ body,
 .header__adress-ico-lnk:hover {
     background: url("../img/address_hov.svg") 0px 3px no-repeat;
     cursor    : pointer;
+}
+.contactpage {
+    margin-bottom: 48px;
+    &__header {
+        margin-bottom: 48px;
+    }
+    &__baner {
+        width     : 100%;
+        background: no-repeat center/100% url(../img/header_baner_contact.svg);
+        height    : 250px;
+    }
+    &__box {
+        text-align: center;
+        padding-top: 51px;
+        &-heding {
+            font-family   : 'Roboto';
+            font-style    : normal;
+            font-weight   : 500;
+            font-size     : 44px;
+            line-height   : 74px;
+            text-align    : center;
+            letter-spacing: 0.04em;
+            color         : #FFFFFF;
+            padding-bottom: 16px;
+        }
+        &-text {
+            font-family: 'Roboto';
+            font-style : normal;
+            font-weight: 400;
+            font-size  : 20px;
+            line-height: 30px;
+            text-align    : center;
+            letter-spacing: 0.04em;
+            color: rgba(255, 255, 255, 0.6);
+            padding: 0 142px;
+        }
+    }
 }
 
 .hero {
