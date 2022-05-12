@@ -113,6 +113,10 @@ body,
   padding: 0 142px;
 }
 
+.contactpage__box__map .iframe_map {
+  border-width: 0px;
+}
+
 .contactpage__about {
   margin-bottom: 56px;
   display: -webkit-box;
