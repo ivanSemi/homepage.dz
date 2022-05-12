@@ -73,7 +73,6 @@ body,
     &__baner {
         width        : 100%;
         background   : no-repeat center/100% url(../img/header_baner_contact.svg);
-        height       : 250px;
         margin-bottom: 57px;
     }
 
@@ -102,7 +101,7 @@ body,
             text-align    : center;
             letter-spacing: 0.04em;
             color         : rgba(255, 255, 255, 0.6);
-            padding       : 0 142px;
+            padding       : 0 142px 49px 142px;
         }
     }
 
@@ -166,16 +165,17 @@ body,
         color          : #1F3F68;
         text-decoration: none;
         padding-bottom : 16px;
-        padding-left: 38px;
-        position: relative;
+        padding-left   : 38px;
+        position       : relative;
+
         &::before {
             content   : "";
             width     : 20px;
             height    : 20px;
             background: url(../img/tel.svg) 0 0 no-repeat;
-            position: absolute;
-            left: 0%;
-            top: 4%;
+            position  : absolute;
+            left      : 0%;
+            top       : 4%;
         }
     }
 
@@ -194,17 +194,18 @@ body,
         letter-spacing : 0.05em;
         color          : #1F3F68;
         text-decoration: none;
-        padding-left: 38px;
+        padding-left   : 38px;
         margin-bottom  : 16px;
-        position: relative;
+        position       : relative;
+
         &::before {
             content   : "";
             width     : 20px;
             height    : 20px;
             background: url(../img/site.svg) 0 0 no-repeat;
-            position: absolute;
-            left: 0%;
-            top: 16%;
+            position  : absolute;
+            left      : 0%;
+            top       : 16%;
         }
     }
 
@@ -217,17 +218,17 @@ body,
         letter-spacing : 0.05em;
         color          : #1F3F68;
         text-decoration: none;
-        padding-left: 38px;
-        position: relative;
+        padding-left   : 38px;
+        position       : relative;
 
         &::before {
             content   : "";
             width     : 20px;
             height    : 20px;
             background: url(../img/mail.svg) 0 0 no-repeat;
-            position: absolute;
-            left: 0%;
-            top: 16%;
+            position  : absolute;
+            left      : 0%;
+            top       : 16%;
         }
     }
 
@@ -706,4 +707,68 @@ hr {
     letter-spacing: 0.05em;
     color         : #FFFFFF;
     opacity       : 0.4;
+}
+
+@media (max-width: 1024px) {
+    .content {
+        padding: 0 32px;
+    }
+
+    .illustration {
+        background-size    : 90%;
+        background-position: left 161px;
+    }
+
+    .h3__main {
+        max-width: 704px;
+    }
+
+    .help__purpose {
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .purpose {
+        margin-bottom: 32px;
+    }
+
+    .help__footer-text {
+        padding: 0 124px;
+    }
+
+    .back_spark,
+    .back_car {
+        max-width      : 462px;
+        background-size: cover;
+    }
+
+    .contactpage {
+        &__header {
+            margin-bottom: 41px;
+        }
+
+        &__box {
+            padding: 15px 0;
+
+            &-heding {
+                padding-bottom: 0px;
+                padding-top   : 36px;
+            }
+        }
+
+        &__about {
+            flex-direction: column;
+            align-items   : center;
+        }
+    }
+    .about__right {
+        margin-bottom: 64px;
+    }
+    .iframe_map {
+        width      : 100%;
+    }
+}
+
+@media (max-width: 667px) {
+
 }
