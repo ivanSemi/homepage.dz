@@ -118,9 +118,9 @@ body,
     height: 668px;
 
     &-img {
-        width     : 300.31px;
-        height    : 181px;
-        background: url(../img/back-address-photo.svg) no-repeat;
+        width        : 300.31px;
+        height       : 181px;
+        background   : url(../img/back-address-photo.svg) no-repeat;
         margin-bottom: 56px;
     }
 
@@ -165,7 +165,18 @@ body,
         letter-spacing : 0.04em;
         color          : #1F3F68;
         text-decoration: none;
-        padding-bottom: 16px;
+        padding-bottom : 16px;
+        padding-left: 38px;
+        position: relative;
+        &::before {
+            content   : "";
+            width     : 20px;
+            height    : 20px;
+            background: url(../img/tel.svg) 0 0 no-repeat;
+            position: absolute;
+            left: 0%;
+            top: 4%;
+        }
     }
 
     &-phone {
@@ -183,18 +194,41 @@ body,
         letter-spacing : 0.05em;
         color          : #1F3F68;
         text-decoration: none;
-        margin-bottom: 16px;
+        padding-left: 38px;
+        margin-bottom  : 16px;
+        position: relative;
+        &::before {
+            content   : "";
+            width     : 20px;
+            height    : 20px;
+            background: url(../img/site.svg) 0 0 no-repeat;
+            position: absolute;
+            left: 0%;
+            top: 16%;
+        }
     }
 
     &-mail {
-        font-family: 'Roboto';
-        font-style : normal;
-        font-weight: 400;
-        font-size  : 16px;
-        line-height: 26px;
-        letter-spacing: 0.05em;
-        color: #1F3F68;
+        font-family    : 'Roboto';
+        font-style     : normal;
+        font-weight    : 400;
+        font-size      : 16px;
+        line-height    : 26px;
+        letter-spacing : 0.05em;
+        color          : #1F3F68;
         text-decoration: none;
+        padding-left: 38px;
+        position: relative;
+
+        &::before {
+            content   : "";
+            width     : 20px;
+            height    : 20px;
+            background: url(../img/mail.svg) 0 0 no-repeat;
+            position: absolute;
+            left: 0%;
+            top: 16%;
+        }
     }
 
 }
@@ -251,6 +285,13 @@ body,
         background   : #5A98D0;
         box-shadow   : 5px 20px 50px rgba(16, 112, 177, 0.2);
         border-radius: 10px;
+        border       : 0;
+
+        &:hover {
+            cursor          : pointer;
+            background-color: #5a9fe5;
+
+        }
     }
 }
 

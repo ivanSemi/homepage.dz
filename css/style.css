@@ -181,6 +181,18 @@ body,
   color: #1F3F68;
   text-decoration: none;
   padding-bottom: 16px;
+  padding-left: 38px;
+  position: relative;
+}
+
+.about__right-link::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/tel.svg) 0 0 no-repeat;
+  position: absolute;
+  left: 0%;
+  top: 4%;
 }
 
 .about__right-phone {
@@ -196,7 +208,19 @@ body,
   letter-spacing: 0.05em;
   color: #1F3F68;
   text-decoration: none;
+  padding-left: 38px;
   margin-bottom: 16px;
+  position: relative;
+}
+
+.about__right-site::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/site.svg) 0 0 no-repeat;
+  position: absolute;
+  left: 0%;
+  top: 16%;
 }
 
 .about__right-mail {
@@ -208,6 +232,18 @@ body,
   letter-spacing: 0.05em;
   color: #1F3F68;
   text-decoration: none;
+  padding-left: 38px;
+  position: relative;
+}
+
+.about__right-mail::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/mail.svg) 0 0 no-repeat;
+  position: absolute;
+  left: 0%;
+  top: 16%;
 }
 
 .about__left {
@@ -272,6 +308,12 @@ body,
   -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
           box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
+  border: 0;
+}
+
+.about__left-button:hover {
+  cursor: pointer;
+  background-color: #5a9fe5;
 }
 
 .hero {
